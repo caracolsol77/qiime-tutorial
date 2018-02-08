@@ -61,6 +61,7 @@ qiime --help
 
 source tab-qiime
 
-ls -1 /srv/home/anavarro/prueba/secuencias/ > lista.txt
+" /////////  Hacer manifiesto"
 
-ls -1 /srv/home/anavarro/prueba/secuencias/*_R1*
+
+ls -1 /srv/home/anavarro/prueba/secuencias/*_R1* >manifiestoR1.txt
