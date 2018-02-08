@@ -65,3 +65,9 @@ source tab-qiime
 
 
 ls -1 /srv/home/anavarro/prueba/secuencias/*_R1* >manifiestoR1.txt
+
+"//////// Para sincronizar nuestra carpeta de resultados usamos rsync"
+"//////// -azp sirve para añadir compresión, una barra de transferencia y reaanudar transferencias incompletas."
+"//////// rsync origen/carpeta_resultados destino"
+
+rsync -azp anavarro@patung:/srv/home/anavarro/resultados_analisis .
